@@ -31,17 +31,6 @@ Then use the `tint-*` utilities in your HTML:
 <img src="icon.svg" class="tint-[rgb(34,197,94)]" alt="RGB color tinted icon" />
 ```
 
-## Supported Image Formats
-
-This plugin works with various image formats including:
-- **SVG** - Vector graphics (recommended for best results)
-- **PNG** - Raster images with transparency
-- **JPG/JPEG** - Raster images
-- **WebP** - Modern web image format
-- **GIF** - Animated and static images
-
-The tint color effect is applied using CSS filters, making it compatible with any image format that can be displayed in web browsers.
-
 ## Credits
 
 This plugin is based on the CSS filter generator by [Barrett Sonntag](https://gist.github.com/barretts/e90d7e5251f36b183c67e02ba54c9ae1) which converts colors to CSS filters.
