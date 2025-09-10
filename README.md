@@ -12,12 +12,31 @@ npm install --save-dev tailwind-tint-color
 
 ## Usage
 
+### Tailwind CSS v4
+
 Add the plugin to your main stylesheet:
 
 ```css
 /* app.css */
 @import "tailwindcss";
 @plugin "tailwind-tint-color";
+```
+
+### Tailwind CSS v3
+
+Add the plugin to your `tailwind.config.js` file:
+
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require('tailwind-tint-color'),
+    // ...
+  ],
+}
 ```
 
 Then use the `tint-*` utilities in your HTML:

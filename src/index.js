@@ -1,10 +1,15 @@
 'use strict';
 
 const plugin = require('tailwindcss/plugin');
-const flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette');
 const Color = require('./color');
 const Solver = require('./solver');
 const { parseColor } = require('./parser');
+
+let flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette');
+if (typeof flattenColorPalette !== 'function') {
+  // tailwindcss v3 support
+  flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette').default;
+}
 
 function getFilterForColor(colorValue) {
   try {
