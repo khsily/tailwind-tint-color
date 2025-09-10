@@ -1,6 +1,6 @@
 # Tint Color Plugin for Tailwind CSS
 
-![Example of Tint Colors](example.png)
+![Example of Tint Colors](https://github.com/khsily/tailwind-tint-color/blob/main/example.png?raw=true)
 
 A Tailwind CSS plugin that adds tint color utilities using CSS filters.
 
