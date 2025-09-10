@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Tint Color Plugin - Example</title>
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold text-gray-800 mb-8">Tailwind Tint Color Plugin Examples</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Basic Colors -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Basic Colors</h2>
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-red-500"></div>
+                        <span class="text-sm">tint-red-500</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-blue-500"></div>
+                        <span class="text-sm">tint-blue-500</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-green-500"></div>
+                        <span class="text-sm">tint-green-500</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-purple-500"></div>
+                        <span class="text-sm">tint-purple-500</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arbitrary Values -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Arbitrary Values</h2>
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-[#ff6b6b]"></div>
+                        <span class="text-sm">tint-[#ff6b6b]</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-[rgb(34,197,94)]"></div>
+                        <span class="text-sm">tint-[rgb(34,197,94)]</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-[hsl(280,100%,70%)]"></div>
+                        <span class="text-sm">tint-[hsl(280,100%,70%)]</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 bg-gray-300 tint-[#f59e0b]"></div>
+                        <span class="text-sm">tint-[#f59e0b]</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Icon Tint Examples -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-4">Icon Tint Examples</h2>
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <img src="barn.svg" alt="Barn Icon" class="w-8 h-8 tint-red-500">
+                        <span class="text-sm">Red tinted barn icon</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <img src="barn.svg" alt="Barn Icon" class="w-8 h-8 tint-blue-500">
+                        <span class="text-sm">Blue tinted barn icon</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <img src="barn.svg" alt="Barn Icon" class="w-8 h-8 tint-green-500">
+                        <span class="text-sm">Green tinted barn icon</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <img src="barn.svg" alt="Barn Icon" class="w-8 h-8 tint-[#f59e0b]">
+                        <span class="text-sm">Orange tinted barn icon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
