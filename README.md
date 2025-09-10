@@ -2,7 +2,7 @@
 
 ![Example of Tint Colors](https://github.com/khsily/tailwind-tint-color/blob/main/example.png?raw=true)
 
-A Tailwind CSS plugin that adds tint color utilities using CSS filters.
+A Tailwind CSS plugin that adds tint color utilities using CSS filters. Perfect for changing the color of icons, images, and graphics without needing separate colored versions.
 
 ## Installation
 
@@ -30,6 +30,17 @@ Then use the `tint-*` utilities in your HTML:
 <img src="icon.svg" class="tint-[#ff6b6b]" alt="Custom color tinted icon" />
 <img src="icon.svg" class="tint-[rgb(34,197,94)]" alt="RGB color tinted icon" />
 ```
+
+## Supported Image Formats
+
+This plugin works with various image formats including:
+- **SVG** - Vector graphics (recommended for best results)
+- **PNG** - Raster images with transparency
+- **JPG/JPEG** - Raster images
+- **WebP** - Modern web image format
+- **GIF** - Animated and static images
+
+The tint color effect is applied using CSS filters, making it compatible with any image format that can be displayed in web browsers.
 
 ## Credits
 
