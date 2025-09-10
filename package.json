@@ -1,6 +1,6 @@
 {
   "name": "tailwind-tint-color",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "scripts": {
     "dev": "concurrently \"npm run serve\" \"npm run watch\"",
@@ -8,7 +8,8 @@
     "watch": "npm run build -- -w",
     "build": "npx @tailwindcss/cli -i example/input.css -o example/tailwind.css"
   },
-  "author": "",
+  "author": "khsily <khsilyqwerty@gmail.com>",
+  "homepage": "https://github.com/khsily/tailwind-tint-color",
   "license": "MIT",
   "description": "A Tailwind CSS plugin that adds tint color utilities using CSS filters",
   "keywords": [
@@ -16,10 +17,14 @@
     "plugin",
     "color",
     "tint",
-    "css-filters"
+    "css-filters",
+    "svg",
+    "icons"
   ],
   "files": [
-    "src/*"
+    "src/",
+    "README.md",
+    "LICENSE"
   ],
   "peerDependencies": {
     "tailwindcss": ">=3.0.0 || >= 4.0.0"
