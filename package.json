@@ -1,6 +1,6 @@
 {
   "name": "tailwind-tint-color",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "scripts": {
     "dev": "concurrently \"npm run serve\" \"npm run watch\"",
@@ -27,7 +27,7 @@
     "LICENSE"
   ],
   "peerDependencies": {
-    "tailwindcss": ">=3.0.0 || >= 4.0.0"
+    "tailwindcss": ">= 4.0.0"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.13",
