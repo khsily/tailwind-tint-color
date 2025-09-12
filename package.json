@@ -1,6 +1,6 @@
 {
   "name": "tailwind-tint-color",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "src/index.js",
   "scripts": {
     "dev": "concurrently \"npm run serve\" \"npm run watch\"",
