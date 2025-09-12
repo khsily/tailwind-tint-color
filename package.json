@@ -24,8 +24,7 @@
   "files": [
     "src/",
     "README.md",
-    "LICENSE",
-    "example.png"
+    "LICENSE"
   ],
   "peerDependencies": {
     "tailwindcss": ">= 3.0.0 || >= 4.0.0"
