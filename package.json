@@ -19,6 +19,9 @@
     "tint",
     "css-filters",
     "svg",
+    "image",
+    "png",
+    "jpg",
     "icons"
   ],
   "files": [
